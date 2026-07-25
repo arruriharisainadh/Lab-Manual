@@ -68,5 +68,3 @@ public class Employee {
         highestPaid.ifPresent(e -> System.out.println("Highest Paid : " + e.getName() + " (" + e.getSalary() + ")"));
     }
 }
-
-#B
